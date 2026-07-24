@@ -1,0 +1,35 @@
+{
+  "name": "bug-hunting-agent",
+  "version": "1.0.0",
+  "description": "Lightweight CLI agent for bug hunting across GitHub repositories",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "scan": "node index.js scan",
+    "analyze": "node index.js analyze",
+    "report": "node index.js report"
+  },
+  "keywords": ["bug-hunting", "security", "cli", "github", "termux"],
+  "author": "soulbrain048-hue",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1",
+    "enquirer": "^2.4.1",
+    "ora": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soulbrain048-hue/Agent-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soulbrain048-hue/Agent-/issues"
+  },
+  "homepage": "https://github.com/soulbrain048-hue/Agent-#readme"
+}
